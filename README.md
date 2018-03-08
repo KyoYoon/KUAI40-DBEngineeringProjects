@@ -9,7 +9,7 @@
 * [데이터베이스](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)는 데이터를 저장하기 위한 저장소를 말하며, [관계형 데이터베이스](https://ko.wikipedia.org/wiki/%EA%B4%80%EA%B3%84%ED%98%95_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)는 데이터를 행(Row)과 열(Column)로 이루어진 키와 값으로 정의한 테이블을 관리하는 저장소이며 테이블의 각 행은 고유 키(Primary Key)를 통해 접근 가능하며 이를 레코드(Record)라고 부른다. [SQL](https://ko.wikipedia.org/wiki/SQL)은 Structured Query Language 의 준말로 데이터베이스의 데이터를 테이블 단위로 접근 및 관리하기 위한 특수 목적의 프로그래밍 언어이다.
 
 ## 3. 사용되는 관계형 데이터베이스 종류
-* Oracle11g XE (개발자 버전)을 사용함
+* [Oracle 11g XE (개발자 버전)](http://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html)을 사용함
 
 ## 4. 세부 강의
 * [DDL(Data Definition Language): 테이블 생성, 구조 수정, 삭제](/ddl_func/ddl_func.md)
