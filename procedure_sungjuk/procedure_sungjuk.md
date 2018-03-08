@@ -48,9 +48,9 @@ CREATE TABLE logTable (
 
 SELECT user, sysdate FROM dual;
 
-USER                           SYSDATE
------------------------------- --------
-SOLDESK                        17/12/01
+USER               | SYSDATE
+------------ | --------
+SOLDESK         | 17/12/01
 
 
 CREATE OR REPLACE PROCEDURE log_write (

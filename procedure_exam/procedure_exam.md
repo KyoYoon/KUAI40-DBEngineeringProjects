@@ -102,12 +102,12 @@ INSERT INTO emp(empno, ename, deptno) VALUES(emp_seq.NextVal, '홍길순', 40);
 COMMIT;
 
 SELECT * FROM emp;
-     EMPNO ENAME                JOB               MGR HIREDATE        SAL       COMM     DEPTNO
----------- -------------------- ---------- ---------- -------- ---------- ---------- ----------
-        21 홍길동                                                                            10
-        22 가길동                                                                            20
-        23 나길동                                                                            30
-        24 홍길순                                                                            40
+EMPNO | ENAME            |    JOB           |    MGR HIREDATE   |     SAL     |  COMM   |  DEPTNO
+------  | -----------  | ---------- | --------------- | ----- | ------  | -------
+21  | 홍길동               |            |                |   |  |        10
+22 | 가길동        |    |   |  |  |                                                        20
+23 |  나길동       |    |   |  |  |                                                     30
+24 | 홍길순         |    |   |  |  |                                                    40
 
 --Procedure Editor에서 작업합니다.
 
@@ -348,7 +348,7 @@ BEGIN
     INSERT INTO log2(num, userid, log_date, query)
     VALUES(log2_seq.NextVal, user, sysdate, i_query);
 
-    COMMIT;
+  COMMIT;
 END log_execution2;
 /
 
